@@ -1,0 +1,15 @@
+.time-wrapper {
+    width: 360px;
+    height: auto;
+    padding: 25px 0 25px 0;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    background-color: rgb(127, 208, 255);
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.time-content {
+    margin: 0;
+    padding: 5px 0 5px 0;
+}
