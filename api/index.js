@@ -1,8 +1,10 @@
 import Express from "express"
+import path from "path"
 
 const app = Express();
 app.use(Express.static("public"));
 app.set("view engine", "pug");
+app.set("views", "views");
 
 app.get('/', (req, res) => {
     const currentTime = new Date();
